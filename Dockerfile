@@ -1,4 +1,4 @@
-FROM traefik:v3.7.4
+FROM traefik:v3.7.13
 
 LABEL prometheus_address="traefik:8081"
 LABEL prometheus_scrape="true"
